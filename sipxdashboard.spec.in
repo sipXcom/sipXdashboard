@@ -2,7 +2,7 @@ Name: @PACKAGE@
 Version: @VERSION@
 Release: @PACKAGE_REVISION@
 
-Summary: VoIP PBX
+Summary: Dashboard
 License: LGPL
 Group: Telcommunications
 Vendor: sipxcom
