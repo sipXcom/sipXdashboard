@@ -10,6 +10,7 @@ Packager: sipxcom
 BuildArch: noarch
 Url: http://www.sipxcom.org
 
+Requires: php
 Requires: php-pgsql
 Requires: php-soap
 
@@ -37,3 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %dir %attr(775,sipx,sipx) %{_localstatedir}/sipxdata/dashboard
 %{_localstatedir}/sipxdata/dashboard/*
+%{_datadir}/sipxecs/cfinputs/plugin.d/sipxdashboard.cf
